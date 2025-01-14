@@ -26,7 +26,7 @@ app.use('/api/itinerary', require('./routes/itineraryRoutes'));
 // app.use('/api/preferences', require('./routes/preferencesRoutes'));
 
 // Start the server
-const PORT = process.env.PORT || 5002;
+const PORT = process.env.PORT || 4000;
 app.listen(PORT, ()=>{
     console.log(`Server running on http://localhost:${PORT}`);
 })
